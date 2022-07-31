@@ -54,7 +54,7 @@ public class TestApp {
 
         System.out.println("Enter the amount of money:");
         if(!sc.hasNextFloat()){
-            throw new Exception("The amount of money isn't float! Try again!");
+            throw new Exception("The amount of money isn't float! Try again please!");
         }else {
             float money = sc.nextFloat();
             if(money != 0) {
@@ -195,7 +195,7 @@ public class TestApp {
         }
     }
     private void startApp(){
-        System.out.println("\nChoose:\n"
+        System.out.println("\nChoose please:\n"
                 + "1. Display list of all users\n"
                 + "2. Display list of all products\n"
                 + "3. Buy a product\n"
